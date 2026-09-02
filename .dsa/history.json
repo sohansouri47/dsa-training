@@ -1,0 +1,28 @@
+{
+    "problems": {
+        "patterns-1-12": {
+            "name": "Patterns 1-12",
+            "topic": "Basics",
+            "pattern": "Star Patterns",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-02",
+            "last_attempt": "2026-09-02",
+            "revision_history": [
+                {
+                    "date": "2026-09-02",
+                    "grade": "A"
+                }
+            ]
+        }
+    },
+    "sessions": [
+        "2026-09-02"
+    ],
+    "stats": {
+        "total_attempted": 1,
+        "independent_solves": 1
+    }
+}
