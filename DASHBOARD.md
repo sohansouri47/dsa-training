@@ -3,8 +3,8 @@
 **Current Focus:** Basics  
 **Study Day:** 1  
 **Current Streak:** 🔥 1 days  
-**Unique Problems:** 1  
-**Total Attempts:** 1
+**Unique Problems:** 12  
+**Total Attempts:** 12
 
 Last Updated: 2026-09-02
 
@@ -12,10 +12,10 @@ Last Updated: 2026-09-02
 
 | Metric | Value |
 |---|---:|
-| Unique Problems | 1 |
-| Total Attempts | 1 |
-| Independent First Solves | 1 |
-| Current Independent Problems | 1 |
+| Unique Problems | 12 |
+| Total Attempts | 12 |
+| Independent First Solves | 12 |
+| Current Independent Problems | 12 |
 | Revision Attempts | 0 |
 | Patterns Encountered | 1 |
 
@@ -23,14 +23,14 @@ Last Updated: 2026-09-02
 
 ### First Attempts
 
-A ██████████████ 1
+A ██████████████ 12
 B ░░░░░░░░░░░░░░ 0
 C ░░░░░░░░░░░░░░ 0
 D ░░░░░░░░░░░░░░ 0
 
 ### Current
 
-A ██████████████ 1
+A ██████████████ 12
 B ░░░░░░░░░░░░░░ 0
 C ░░░░░░░░░░░░░░ 0
 D ░░░░░░░░░░░░░░ 0
@@ -55,7 +55,7 @@ None yet.
 
 | Topic | Problems | Current A | Mastery |
 |---|---:|---:|---:|
-| Basics | 1 | 1 | 100% |
+| Basics | 12 | 12 | 100% |
 
 ## 🧩 Pattern Library
 
@@ -87,10 +87,10 @@ Sep
 
 | Date | Topic | New | Revision | Result |
 |---|---|---:|---:|---|
-| Sep 02 | Basics | 1 | 0 | A |
+| Sep 02 | Basics | 12 | 0 | 12 A |
 
 ## 🧱 Difficulty
 
-Easy:   ██████████████ 1
+Easy:   ██████████████ 12
 Medium: ░░░░░░░░░░░░░░ 0
 Hard:   ░░░░░░░░░░░░░░ 0

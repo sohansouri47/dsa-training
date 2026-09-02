@@ -1,7 +1,194 @@
 {
     "problems": {
-        "patterns-1-12": {
-            "name": "Patterns 1-12",
+        "pattern-1": {
+            "name": "Rectangular Star Pattern",
+            "topic": "Basics",
+            "pattern": "Star Patterns",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-02",
+            "last_attempt": "2026-09-02",
+            "revision_history": [
+                {
+                    "date": "2026-09-02",
+                    "grade": "A"
+                }
+            ]
+        },
+        "pattern-2": {
+            "name": "Right-Angled Triangle Pattern",
+            "topic": "Basics",
+            "pattern": "Star Patterns",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-02",
+            "last_attempt": "2026-09-02",
+            "revision_history": [
+                {
+                    "date": "2026-09-02",
+                    "grade": "A"
+                }
+            ]
+        },
+        "pattern-3": {
+            "name": "Right-Angled Number Pyramid",
+            "topic": "Basics",
+            "pattern": "Star Patterns",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-02",
+            "last_attempt": "2026-09-02",
+            "revision_history": [
+                {
+                    "date": "2026-09-02",
+                    "grade": "A"
+                }
+            ]
+        },
+        "pattern-4": {
+            "name": "Right-Angled Number Pyramid - II",
+            "topic": "Basics",
+            "pattern": "Star Patterns",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-02",
+            "last_attempt": "2026-09-02",
+            "revision_history": [
+                {
+                    "date": "2026-09-02",
+                    "grade": "A"
+                }
+            ]
+        },
+        "pattern-5": {
+            "name": "Inverted Right Pyramid",
+            "topic": "Basics",
+            "pattern": "Star Patterns",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-02",
+            "last_attempt": "2026-09-02",
+            "revision_history": [
+                {
+                    "date": "2026-09-02",
+                    "grade": "A"
+                }
+            ]
+        },
+        "pattern-6": {
+            "name": "Inverted Numbered Right Pyramid",
+            "topic": "Basics",
+            "pattern": "Star Patterns",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-02",
+            "last_attempt": "2026-09-02",
+            "revision_history": [
+                {
+                    "date": "2026-09-02",
+                    "grade": "A"
+                }
+            ]
+        },
+        "pattern-7": {
+            "name": "Star Pyramid",
+            "topic": "Basics",
+            "pattern": "Star Patterns",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-02",
+            "last_attempt": "2026-09-02",
+            "revision_history": [
+                {
+                    "date": "2026-09-02",
+                    "grade": "A"
+                }
+            ]
+        },
+        "pattern-8": {
+            "name": "Inverted Star Pyramid",
+            "topic": "Basics",
+            "pattern": "Star Patterns",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-02",
+            "last_attempt": "2026-09-02",
+            "revision_history": [
+                {
+                    "date": "2026-09-02",
+                    "grade": "A"
+                }
+            ]
+        },
+        "pattern-9": {
+            "name": "Diamond Star Pattern",
+            "topic": "Basics",
+            "pattern": "Star Patterns",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-02",
+            "last_attempt": "2026-09-02",
+            "revision_history": [
+                {
+                    "date": "2026-09-02",
+                    "grade": "A"
+                }
+            ]
+        },
+        "pattern-10": {
+            "name": "Half Diamond Star Pattern",
+            "topic": "Basics",
+            "pattern": "Star Patterns",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-02",
+            "last_attempt": "2026-09-02",
+            "revision_history": [
+                {
+                    "date": "2026-09-02",
+                    "grade": "A"
+                }
+            ]
+        },
+        "pattern-11": {
+            "name": "Binary Number Triangle Pattern",
+            "topic": "Basics",
+            "pattern": "Star Patterns",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-02",
+            "last_attempt": "2026-09-02",
+            "revision_history": [
+                {
+                    "date": "2026-09-02",
+                    "grade": "A"
+                }
+            ]
+        },
+        "pattern-12": {
+            "name": "Number Crown Pattern",
             "topic": "Basics",
             "pattern": "Star Patterns",
             "difficulty": "Easy",
@@ -22,7 +209,7 @@
         "2026-09-02"
     ],
     "stats": {
-        "total_attempted": 1,
-        "independent_solves": 1
+        "total_attempted": 12,
+        "independent_solves": 12
     }
 }
