@@ -1,49 +1,49 @@
 # 🧠 DSA Progress Dashboard
 
-**Current Focus:** Basics  
-**Study Day:** 1  
-**Current Streak:** 🔥 1 days  
-**Unique Problems:** 12  
-**Total Attempts:** 12
+**Current Focus:** Recursion  
+**Study Day:** 2  
+**Current Streak:** 🔥 2 days  
+**Unique Problems:** 18  
+**Total Attempts:** 18
 
-Last Updated: 2026-09-02
+Last Updated: 2026-09-03
 
 ## 📊 Overall Progress
 
 | Metric | Value |
 |---|---:|
-| Unique Problems | 12 |
-| Total Attempts | 12 |
-| Independent First Solves | 12 |
-| Current Independent Problems | 12 |
+| Unique Problems | 18 |
+| Total Attempts | 18 |
+| Independent First Solves | 18 |
+| Current Independent Problems | 18 |
 | Revision Attempts | 0 |
-| Patterns Encountered | 1 |
+| Patterns Encountered | 2 |
 
 ## 🎯 Grade Distribution
 
 ### First Attempts
 
-A ██████████████ 12
-B ░░░░░░░░░░░░░░ 0
-C ░░░░░░░░░░░░░░ 0
-D ░░░░░░░░░░░░░░ 0
+A ██████████████████ 18
+B ░░░░░░░░░░░░░░░░░░ 0
+C ░░░░░░░░░░░░░░░░░░ 0
+D ░░░░░░░░░░░░░░░░░░ 0
 
 ### Current
 
-A ██████████████ 12
-B ░░░░░░░░░░░░░░ 0
-C ░░░░░░░░░░░░░░ 0
-D ░░░░░░░░░░░░░░ 0
+A ██████████████████ 18
+B ░░░░░░░░░░░░░░░░░░ 0
+C ░░░░░░░░░░░░░░░░░░ 0
+D ░░░░░░░░░░░░░░░░░░ 0
 
 ## 🚀 Independence
 
 First-Attempt Independence
 
-██████████████ 100%
+██████████████████ 100%
 
 Current Mastery
 
-██████████████ 100%
+██████████████████ 100%
 
 Improvement: 0 percentage points
 
@@ -56,10 +56,12 @@ None yet.
 | Topic | Problems | Current A | Mastery |
 |---|---:|---:|---:|
 | Basics | 12 | 12 | 100% |
+| Recursion | 6 | 6 | 100% |
 
 ## 🧩 Pattern Library
 
 ✅ Star Patterns
+✅ Basic Recursion
 
 ## 🔁 Revision Queue
 
@@ -73,24 +75,26 @@ None
 
 ## 🔥 Consistency
 
-Current streak: 1 days
-Longest streak: 1 days
-Sessions this month: 1 / 2 days
-Completion rate: 50%
+Current streak: 2 days
+Longest streak: 2 days
+Sessions this month: 2 / 3 days
+Completion rate: 66%
 
 Sep
 
 01 ⬜
 02 🟩
+03 🟩
 
 ## 🗓️ Recent Sessions
 
 | Date | Topic | New | Revision | Result |
 |---|---|---:|---:|---|
+| Sep 03 | Recursion | 6 | 0 | 6 A |
 | Sep 02 | Basics | 12 | 0 | 12 A |
 
 ## 🧱 Difficulty
 
-Easy:   ██████████████ 12
-Medium: ░░░░░░░░░░░░░░ 0
-Hard:   ░░░░░░░░░░░░░░ 0
+Easy:   ██████████████████ 18
+Medium: ░░░░░░░░░░░░░░░░░░ 0
+Hard:   ░░░░░░░░░░░░░░░░░░ 0

@@ -16,3 +16,21 @@
 ### Representative Problems
 
 - Patterns 1-12
+
+## Basic Recursion & Backtracking
+
+### Recognition Signals
+
+- Problem involves repeating a similar operation with a smaller or modified input.
+- Need to build a sequence of operations that unwind (Backtracking).
+
+### Mental Model
+
+- Every recursive function must have a **base condition** to stop.
+- In basic recursion, you do the work before the recursive call.
+- In backtracking (or unwinding), you make the recursive call first, and do the work after it returns.
+
+### Representative Problems
+
+- Linear Print 1 to N
+- Factorial

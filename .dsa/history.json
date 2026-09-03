@@ -203,13 +203,150 @@
                     "grade": "A"
                 }
             ]
+        },
+        "recursion-print-name": {
+            "name": "Print Name 5 Times",
+            "topic": "Recursion",
+            "pattern": "Basic Recursion",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-03",
+            "last_attempt": "2026-09-03",
+            "revision_history": [
+                {
+                    "date": "2026-09-03",
+                    "grade": "A"
+                }
+            ]
+        },
+        "recursion-linear-print": {
+            "name": "Linear Print 1 to N",
+            "topic": "Recursion",
+            "pattern": "Basic Recursion",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-03",
+            "last_attempt": "2026-09-03",
+            "revision_history": [
+                {
+                    "date": "2026-09-03",
+                    "grade": "A"
+                }
+            ]
+        },
+        "recursion-r-linear-print": {
+            "name": "Linear Print N to 1",
+            "topic": "Recursion",
+            "pattern": "Basic Recursion",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-03",
+            "last_attempt": "2026-09-03",
+            "revision_history": [
+                {
+                    "date": "2026-09-03",
+                    "grade": "A"
+                }
+            ]
+        },
+        "recursion-r-backtrack": {
+            "name": "Linear Print 1 to N (Backtracking)",
+            "topic": "Recursion",
+            "pattern": "Backtracking",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-03",
+            "last_attempt": "2026-09-03",
+            "revision_history": [
+                {
+                    "date": "2026-09-03",
+                    "grade": "A"
+                }
+            ]
+        },
+        "recursion-backtrack": {
+            "name": "Linear Print N to 1 (Backtracking)",
+            "topic": "Recursion",
+            "pattern": "Backtracking",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-03",
+            "last_attempt": "2026-09-03",
+            "revision_history": [
+                {
+                    "date": "2026-09-03",
+                    "grade": "A"
+                }
+            ]
+        },
+        "recursion-factorial": {
+            "name": "Factorial",
+            "topic": "Recursion",
+            "pattern": "Functional vs Parameterized Recursion",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-03",
+            "last_attempt": "2026-09-03",
+            "revision_history": [
+                {
+                    "date": "2026-09-03",
+                    "grade": "A"
+                }
+            ]
         }
     },
     "sessions": [
-        "2026-09-02"
+        {
+            "date": "2026-09-02",
+            "day": 1,
+            "topic": "Basics",
+            "new_problems": 12,
+            "revision_problems": 0,
+            "problems": [
+                "pattern-1",
+                "pattern-2",
+                "pattern-3",
+                "pattern-4",
+                "pattern-5",
+                "pattern-6",
+                "pattern-7",
+                "pattern-8",
+                "pattern-9",
+                "pattern-10",
+                "pattern-11",
+                "pattern-12"
+            ]
+        },
+        {
+            "date": "2026-09-03",
+            "day": 2,
+            "topic": "Recursion",
+            "new_problems": 6,
+            "revision_problems": 0,
+            "problems": [
+                "recursion-print-name",
+                "recursion-linear-print",
+                "recursion-r-linear-print",
+                "recursion-r-backtrack",
+                "recursion-backtrack",
+                "recursion-factorial"
+            ]
+        }
     ],
     "stats": {
-        "total_attempted": 12,
-        "independent_solves": 12
+        "total_attempted": 18,
+        "independent_solves": 18
     }
 }
