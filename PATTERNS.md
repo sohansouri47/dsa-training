@@ -34,3 +34,37 @@
 
 - Linear Print 1 to N
 - Factorial
+
+## Take/Not Take (Subsequences)
+
+### Recognition Signals
+
+- Need to generate all possible combinations or subsequences of an array or string.
+- Subsets/Subsequences are requested.
+
+### Mental Model
+
+- At each element in the input, the recursive function branches into two paths:
+  1. **Take** the element (add to current result).
+  2. **Not Take** the element (skip it).
+- Use a list to build the subsequence and `.pop()` to backtrack when coming back from the "Take" branch.
+
+### Representative Problems
+
+- Generate All Subsequences
+
+## Multiple Recursive Calls
+
+### Recognition Signals
+
+- The problem naturally breaks down into multiple smaller subproblems of the same type.
+- Example: Fibonacci sequence, where F(n) depends on both F(n-1) and F(n-2).
+
+### Mental Model
+
+- A function can make multiple recursive calls, which creates a branching execution tree rather than a straight line.
+- The base conditions must handle all valid stopping points for the tree.
+
+### Representative Problems
+
+- Fibonacci Number

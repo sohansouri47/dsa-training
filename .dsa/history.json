@@ -305,6 +305,93 @@
                     "grade": "C"
                 }
             ]
+        },
+        "recursion-array-reversal-append": {
+            "name": "Array Reversal (Append)",
+            "topic": "Recursion",
+            "pattern": "Parameterized Recursion",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-03",
+            "last_attempt": "2026-09-03",
+            "revision_history": [
+                {
+                    "date": "2026-09-03",
+                    "grade": "A"
+                }
+            ]
+        },
+        "recursion-array-reversal-swap": {
+            "name": "Array Reversal (In-place Swap)",
+            "topic": "Recursion",
+            "pattern": "Two Pointers",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-03",
+            "last_attempt": "2026-09-03",
+            "revision_history": [
+                {
+                    "date": "2026-09-03",
+                    "grade": "A"
+                }
+            ]
+        },
+        "recursion-palindrome": {
+            "name": "Palindrome Check",
+            "topic": "Recursion",
+            "pattern": "Functional Recursion",
+            "difficulty": "Easy",
+            "first_attempt": "D",
+            "current": "C",
+            "attempts": 1,
+            "first_seen": "2026-09-03",
+            "last_attempt": "2026-09-03",
+            "next_revision": "2026-09-05",
+            "revision_history": [
+                {
+                    "date": "2026-09-03",
+                    "grade": "C"
+                }
+            ]
+        },
+        "recursion-fibonacci": {
+            "name": "Fibonacci Number",
+            "topic": "Recursion",
+            "pattern": "Multiple Recursive Calls",
+            "difficulty": "Easy",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-03",
+            "last_attempt": "2026-09-03",
+            "revision_history": [
+                {
+                    "date": "2026-09-03",
+                    "grade": "A"
+                }
+            ]
+        },
+        "recursion-subsequences": {
+            "name": "Generate All Subsequences",
+            "topic": "Recursion",
+            "pattern": "Take/Not Take",
+            "difficulty": "Medium",
+            "first_attempt": "D",
+            "current": "D",
+            "attempts": 1,
+            "first_seen": "2026-09-03",
+            "last_attempt": "2026-09-03",
+            "next_revision": "2026-09-05",
+            "revision_history": [
+                {
+                    "date": "2026-09-03",
+                    "grade": "D"
+                }
+            ]
         }
     },
     "sessions": [
@@ -333,7 +420,7 @@
             "date": "2026-09-03",
             "day": 2,
             "topic": "Recursion",
-            "new_problems": 6,
+            "new_problems": 11,
             "revision_problems": 0,
             "problems": [
                 "recursion-print-name",
@@ -341,12 +428,17 @@
                 "recursion-r-linear-print",
                 "recursion-r-backtrack",
                 "recursion-backtrack",
-                "recursion-factorial"
+                "recursion-factorial",
+                "recursion-array-reversal-append",
+                "recursion-array-reversal-swap",
+                "recursion-palindrome",
+                "recursion-fibonacci",
+                "recursion-subsequences"
             ]
         }
     ],
     "stats": {
-        "total_attempted": 18,
-        "independent_solves": 17
+        "total_attempted": 23,
+        "independent_solves": 20
     }
 }

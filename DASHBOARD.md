@@ -3,8 +3,8 @@
 **Current Focus:** Recursion  
 **Study Day:** 2  
 **Current Streak:** 🔥 2 days  
-**Unique Problems:** 18  
-**Total Attempts:** 18
+**Unique Problems:** 23  
+**Total Attempts:** 23
 
 Last Updated: 2026-09-03
 
@@ -12,38 +12,38 @@ Last Updated: 2026-09-03
 
 | Metric | Value |
 |---|---:|
-| Unique Problems | 18 |
-| Total Attempts | 18 |
-| Independent First Solves | 17 |
-| Current Independent Problems | 17 |
+| Unique Problems | 23 |
+| Total Attempts | 23 |
+| Independent First Solves | 20 |
+| Current Independent Problems | 20 |
 | Revision Attempts | 0 |
-| Patterns Encountered | 2 |
+| Patterns Encountered | 4 |
 
 ## 🎯 Grade Distribution
 
 ### First Attempts
 
-A █████████████████░ 17
+A ███████████████░░░ 20
 B ░░░░░░░░░░░░░░░░░░ 0
-C █░░░░░░░░░░░░░░░░░ 1
-D ░░░░░░░░░░░░░░░░░░ 0
+C ░░░░░░░░░░░░░░░░░░ 1
+D █░░░░░░░░░░░░░░░░░ 2
 
 ### Current
 
-A █████████████████░ 17
-B █░░░░░░░░░░░░░░░░░ 1
-C ░░░░░░░░░░░░░░░░░░ 0
-D ░░░░░░░░░░░░░░░░░░ 0
+A ███████████████░░░ 20
+B ░░░░░░░░░░░░░░░░░░ 1
+C ░░░░░░░░░░░░░░░░░░ 1
+D ░░░░░░░░░░░░░░░░░░ 1
 
 ## 🚀 Independence
 
 First-Attempt Independence
 
-█████████████████░ 94%
+███████████████░░░ 86%
 
 Current Mastery
 
-█████████████████░ 94%
+███████████████░░░ 86%
 
 Improvement: 0 percentage points
 
@@ -56,12 +56,14 @@ None yet.
 | Topic | Problems | Current A | Mastery |
 |---|---:|---:|---:|
 | Basics | 12 | 12 | 100% |
-| Recursion | 6 | 5 | 83% |
+| Recursion | 11 | 8 | 72% |
 
 ## 🧩 Pattern Library
 
 ✅ Star Patterns
 ✅ Basic Recursion
+✅ Take/Not Take
+✅ Multiple Recursive Calls
 
 ## 🔁 Revision Queue
 
@@ -71,7 +73,10 @@ None
 
 ### Upcoming
 
-None
+| Date | Problems |
+|---|---|
+| Sep 05 | Palindrome Check |
+| Sep 05 | Generate All Subsequences |
 
 ## 🔥 Consistency
 
@@ -90,11 +95,11 @@ Sep
 
 | Date | Topic | New | Revision | Result |
 |---|---|---:|---:|---|
-| Sep 03 | Recursion | 6 | 0 | 5 A, 1 C |
+| Sep 03 | Recursion | 11 | 0 | 9 A, 1 C, 1 D |
 | Sep 02 | Basics | 12 | 0 | 12 A |
 
 ## 🧱 Difficulty
 
-Easy:   ██████████████████ 18
-Medium: ░░░░░░░░░░░░░░░░░░ 0
+Easy:   █████████████████░ 22
+Medium: ░░░░░░░░░░░░░░░░░░ 1
 Hard:   ░░░░░░░░░░░░░░░░░░ 0

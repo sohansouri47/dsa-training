@@ -12,3 +12,5 @@
 ## Implementation Mistakes
 
 - I found functional recursion harder to implement than parameterized recursion because thinking about returning the multiplied value backward is less intuitive than passing the accumulator forward.
+- I completely didn't know we have to write a return for a recursive call when using functional recursion.
+- Still need to work on generating subsequences (Take/Not Take). I drew the recursion tree on paper which helped, but need to habituate functional recursion. Parameterized recursion feels better.
