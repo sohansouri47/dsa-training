@@ -14,8 +14,8 @@ Last Updated: 2026-09-03
 |---|---:|
 | Unique Problems | 18 |
 | Total Attempts | 18 |
-| Independent First Solves | 18 |
-| Current Independent Problems | 18 |
+| Independent First Solves | 17 |
+| Current Independent Problems | 17 |
 | Revision Attempts | 0 |
 | Patterns Encountered | 2 |
 
@@ -23,15 +23,15 @@ Last Updated: 2026-09-03
 
 ### First Attempts
 
-A ██████████████████ 18
+A █████████████████░ 17
 B ░░░░░░░░░░░░░░░░░░ 0
-C ░░░░░░░░░░░░░░░░░░ 0
+C █░░░░░░░░░░░░░░░░░ 1
 D ░░░░░░░░░░░░░░░░░░ 0
 
 ### Current
 
-A ██████████████████ 18
-B ░░░░░░░░░░░░░░░░░░ 0
+A █████████████████░ 17
+B █░░░░░░░░░░░░░░░░░ 1
 C ░░░░░░░░░░░░░░░░░░ 0
 D ░░░░░░░░░░░░░░░░░░ 0
 
@@ -39,11 +39,11 @@ D ░░░░░░░░░░░░░░░░░░ 0
 
 First-Attempt Independence
 
-██████████████████ 100%
+█████████████████░ 94%
 
 Current Mastery
 
-██████████████████ 100%
+█████████████████░ 94%
 
 Improvement: 0 percentage points
 
@@ -56,7 +56,7 @@ None yet.
 | Topic | Problems | Current A | Mastery |
 |---|---:|---:|---:|
 | Basics | 12 | 12 | 100% |
-| Recursion | 6 | 6 | 100% |
+| Recursion | 6 | 5 | 83% |
 
 ## 🧩 Pattern Library
 
@@ -90,7 +90,7 @@ Sep
 
 | Date | Topic | New | Revision | Result |
 |---|---|---:|---:|---|
-| Sep 03 | Recursion | 6 | 0 | 6 A |
+| Sep 03 | Recursion | 6 | 0 | 5 A, 1 C |
 | Sep 02 | Basics | 12 | 0 | 12 A |
 
 ## 🧱 Difficulty

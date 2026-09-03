@@ -154,8 +154,8 @@ Problem: Factorial (Functional vs Parameterized)
 Topic: Recursion
 Pattern: Functional vs Parameterized Recursion
 
-First Attempt: A
-Current: A
+First Attempt: C
+Current: B
 
 Key Insight:
 Functional recursion relies on returning a value that multiplies with the result of the recursive call. Parameterized recursion passes the accumulator down to the next call.

@@ -294,15 +294,15 @@
             "topic": "Recursion",
             "pattern": "Functional vs Parameterized Recursion",
             "difficulty": "Easy",
-            "first_attempt": "A",
-            "current": "A",
+            "first_attempt": "C",
+            "current": "B",
             "attempts": 1,
             "first_seen": "2026-09-03",
             "last_attempt": "2026-09-03",
             "revision_history": [
                 {
                     "date": "2026-09-03",
-                    "grade": "A"
+                    "grade": "C"
                 }
             ]
         }
@@ -347,6 +347,6 @@
     ],
     "stats": {
         "total_attempted": 18,
-        "independent_solves": 18
+        "independent_solves": 17
     }
 }
