@@ -392,6 +392,23 @@
                     "grade": "D"
                 }
             ]
+        },
+        "recursion-increasing-subsequences": {
+            "name": "Increasing Subsequences",
+            "topic": "Recursion",
+            "pattern": "Take/Not Take",
+            "difficulty": "Medium",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-04",
+            "last_attempt": "2026-09-04",
+            "revision_history": [
+                {
+                    "date": "2026-09-04",
+                    "grade": "A"
+                }
+            ]
         }
     },
     "sessions": [
@@ -435,10 +452,20 @@
                 "recursion-fibonacci",
                 "recursion-subsequences"
             ]
+        },
+        {
+            "date": "2026-09-04",
+            "day": 3,
+            "topic": "Recursion",
+            "new_problems": 1,
+            "revision_problems": 0,
+            "problems": [
+                "recursion-increasing-subsequences"
+            ]
         }
     ],
     "stats": {
-        "total_attempted": 23,
-        "independent_solves": 20
+        "total_attempted": 24,
+        "independent_solves": 21
     }
 }

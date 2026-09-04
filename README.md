@@ -4,9 +4,9 @@ Personal DSA learning repository.
 
 Current Focus: Recursion
 
-Problems: 23
-First-Attempt Independence: 86%
-Current Mastery: 86%
+Problems: 24
+First-Attempt Independence: 87%
+Current Mastery: 87%
 
 → See [DASHBOARD.md](DASHBOARD.md) for full progress statistics.
 → See [PATTERNS.md](PATTERNS.md) for pattern recognition notes.
