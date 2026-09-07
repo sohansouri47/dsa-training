@@ -409,6 +409,60 @@
                     "grade": "A"
                 }
             ]
+        },
+        "graph-matrix-to-list": {
+            "name": "Adjacency Matrix to Adjacency List",
+            "topic": "Graphs",
+            "pattern": "Graph Representation",
+            "difficulty": "Easy",
+            "first_attempt": "C",
+            "current": "B",
+            "attempts": 1,
+            "first_seen": "2026-09-07",
+            "last_attempt": "2026-09-07",
+            "next_revision": "2026-09-09",
+            "revision_history": [
+                {
+                    "date": "2026-09-07",
+                    "grade": "C"
+                }
+            ]
+        },
+        "graph-bfs": {
+            "name": "BFS of Graph",
+            "topic": "Graphs",
+            "pattern": "Breadth-First Search",
+            "difficulty": "Easy",
+            "first_attempt": "C",
+            "current": "B",
+            "attempts": 1,
+            "first_seen": "2026-09-07",
+            "last_attempt": "2026-09-07",
+            "next_revision": "2026-09-09",
+            "revision_history": [
+                {
+                    "date": "2026-09-07",
+                    "grade": "C"
+                }
+            ]
+        },
+        "graph-dfs": {
+            "name": "DFS of Graph",
+            "topic": "Graphs",
+            "pattern": "Depth-First Search",
+            "difficulty": "Easy",
+            "first_attempt": "C",
+            "current": "B",
+            "attempts": 1,
+            "first_seen": "2026-09-07",
+            "last_attempt": "2026-09-07",
+            "next_revision": "2026-09-09",
+            "revision_history": [
+                {
+                    "date": "2026-09-07",
+                    "grade": "C"
+                }
+            ]
         }
     },
     "sessions": [
@@ -462,10 +516,22 @@
             "problems": [
                 "recursion-increasing-subsequences"
             ]
+        },
+        {
+            "date": "2026-09-07",
+            "day": 5,
+            "topic": "Graphs",
+            "new_problems": 3,
+            "revision_problems": 0,
+            "problems": [
+                "graph-matrix-to-list",
+                "graph-bfs",
+                "graph-dfs"
+            ]
         }
     ],
     "stats": {
-        "total_attempted": 24,
+        "total_attempted": 27,
         "independent_solves": 21
     }
 }

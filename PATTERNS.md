@@ -68,3 +68,54 @@
 ### Representative Problems
 
 - Fibonacci Number
+
+## Graph Representation
+
+### Recognition Signals
+
+- Problem provides network connections, edge pairs, or grid adjacency.
+- Need efficient neighbor traversal for sparse graphs.
+
+### Mental Model
+
+- **Adjacency List (`adj`)**: An array/dictionary of lists where `adj[u]` holds direct neighbors of `u`. Preferred for $O(V + E)$ space and fast iteration.
+- **Adjacency Matrix (`matrix`)**: A 2D array where `matrix[i][j] == 1` indicates a directed edge $i \to j$. $O(1)$ edge lookup, but $O(V^2)$ space.
+
+### Representative Problems
+
+- Adjacency Matrix to Adjacency List
+
+## Breadth-First Search (BFS)
+
+### Recognition Signals
+
+- Need level-by-level or equidistant traversal outward from a source.
+- Finding shortest path or minimum steps in an unweighted graph.
+
+### Mental Model
+
+- Structure: **Queue (FIFO)** + **Visited array** + Result list.
+- **Crucial Rule**: Mark nodes visited **when enqueued/discovered**, NOT when dequeued. Marking on dequeue causes shared neighbors to be enqueued multiple times.
+- Python note: `list.pop(0)` is $O(n)$; use `collections.deque.popleft()` for $O(1)$ queue operations.
+
+### Representative Problems
+
+- BFS of Graph
+
+## Depth-First Search (DFS)
+
+### Recognition Signals
+
+- Need to explore each path completely before backtracking.
+- Connected components, cycle detection, path existence.
+
+### Mental Model
+
+- Maps naturally to **Recursion** via the call stack (processes neighbors in adjacency order).
+- **Iterative DFS (Stack / LIFO)**: Stack reverses order; push neighbors in reverse (`reversed(adj[u])`) to match recursive traversal order.
+- Visited Timing: When marking visited on pop (to mimic recursion order), stack may hold duplicate references—always skip already visited nodes upon popping (`if visited[node]: continue`).
+
+### Representative Problems
+
+- DFS of Graph
+
