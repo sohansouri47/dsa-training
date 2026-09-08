@@ -91,16 +91,21 @@
 
 - Need level-by-level or equidistant traversal outward from a source.
 - Finding shortest path or minimum steps in an unweighted graph.
+- Exploring connected components on a 2D matrix/grid (e.g., flood fill, islands).
 
 ### Mental Model
 
-- Structure: **Queue (FIFO)** + **Visited array** + Result list.
-- **Crucial Rule**: Mark nodes visited **when enqueued/discovered**, NOT when dequeued. Marking on dequeue causes shared neighbors to be enqueued multiple times.
+- Structure: **Queue (FIFO)** + **Visited array** + Result / Mutation.
+- **Crucial Rule**: Mark nodes visited **when enqueued/discovered**, NOT when dequeued. Also mark the start cell/node visited upon initial enqueue.
+- **Grid Traversal**: Use coordinate offset vectors (`varx = [1, -1, 0, 0]`, `vary = [0, 0, 1, -1]`) to cleanly visit 4-directional neighbors.
+- **Grid Boundaries**: Check `0 <= cr < len(image)` (rows) and `0 <= cc < len(image[0])` (columns).
+- **In-Place Mutation**: Save starting state (`ocolor = image[sr][sc]`) before modifying cells so neighbor validation checks against the original value.
 - Python note: `list.pop(0)` is $O(n)$; use `collections.deque.popleft()` for $O(1)$ queue operations.
 
 ### Representative Problems
 
 - BFS of Graph
+- Flood Fill
 
 ## Depth-First Search (DFS)
 
@@ -118,4 +123,22 @@
 ### Representative Problems
 
 - DFS of Graph
+
+## Connected Components
+
+### Recognition Signals
+
+- Finding isolated subgraphs, clusters, or groupings of mutually reachable vertices in an undirected graph.
+- Problem asks to count provinces, disconnected networks, or group connected entities.
+
+### Mental Model
+
+- **Outer Loop Traversal**: Iterate over all vertices $i \in [0, V-1]$. If vertex $i$ is unvisited, launch a DFS (or BFS) from $i$ to traverse and mark the entire connected component.
+- **Count / Collect**: Each time an unvisited vertex triggers a traversal from the outer loop, increment component count or collect the component list.
+- **Time Complexity — $O(V + E)$**: Every vertex is visited once. Across all vertices, every undirected edge is checked twice ($2E$, once from each endpoint in the adjacency list). It is NOT $O(V \cdot E)$, which would mean scanning all edges for every vertex.
+- **Space Complexity**: Auxiliary space is $O(V)$ (visited array + recursion stack / queue); total space is $O(V + E)$ including the adjacency list.
+
+### Representative Problems
+
+- Connected Components in an Undirected Graph
 

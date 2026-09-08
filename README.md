@@ -4,9 +4,9 @@ Personal DSA learning repository.
 
 Current Focus: Graphs
 
-Problems: 27
-First-Attempt Independence: 78%
-Current Mastery: 78%
+Problems: 29
+First-Attempt Independence: 76%
+Current Mastery: 76%
 
 → See [DASHBOARD.md](DASHBOARD.md) for full progress statistics.
 → See [PATTERNS.md](PATTERNS.md) for pattern recognition notes.

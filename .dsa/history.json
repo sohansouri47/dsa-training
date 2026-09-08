@@ -463,6 +463,42 @@
                     "grade": "C"
                 }
             ]
+        },
+        "graph-flood-fill": {
+            "name": "Flood Fill",
+            "topic": "Graphs",
+            "pattern": "Breadth-First Search",
+            "difficulty": "Easy",
+            "first_attempt": "C",
+            "current": "C",
+            "attempts": 1,
+            "first_seen": "2026-09-08",
+            "last_attempt": "2026-09-08",
+            "next_revision": "2026-09-10",
+            "revision_history": [
+                {
+                    "date": "2026-09-08",
+                    "grade": "C"
+                }
+            ]
+        },
+        "graph-connected-components": {
+            "name": "Connected Components in an Undirected Graph",
+            "topic": "Graphs",
+            "pattern": "Connected Components",
+            "difficulty": "Medium",
+            "first_attempt": "A",
+            "current": "A",
+            "attempts": 1,
+            "first_seen": "2026-09-08",
+            "last_attempt": "2026-09-08",
+            "next_revision": "2026-09-10",
+            "revision_history": [
+                {
+                    "date": "2026-09-08",
+                    "grade": "A"
+                }
+            ]
         }
     },
     "sessions": [
@@ -528,10 +564,21 @@
                 "graph-bfs",
                 "graph-dfs"
             ]
+        },
+        {
+            "date": "2026-09-08",
+            "day": 6,
+            "topic": "Graphs",
+            "new_problems": 2,
+            "revision_problems": 0,
+            "problems": [
+                "graph-connected-components",
+                "graph-flood-fill"
+            ]
         }
     ],
     "stats": {
-        "total_attempted": 27,
-        "independent_solves": 21
+        "total_attempted": 29,
+        "independent_solves": 22
     }
 }
