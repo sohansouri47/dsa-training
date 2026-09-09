@@ -17,6 +17,9 @@
 - **Preserving Original State During In-Place Mutation**: When a traversal modifies the grid as it runs (e.g. changing pixels to a new color), save the source cell's initial value upfront (`ocolor = image[sr][sc]`) so neighbor expansion checks compare against the true starting value.
 - **Graph Traversal Complexity is $O(V + E)$, NOT $O(V \cdot E)$**: Traversal visits each vertex once ($O(V)$). Across all vertices, the neighbor loops iterate through the adjacency lists, examining each undirected edge exactly twice ($2E$). The work is summed across all vertices, not repeated $V$ times per edge.
 - **Auxiliary vs Total Space**: Traversal auxiliary memory is $O(V)$ (for the `visited` array and DFS recursion stack or BFS queue), while total memory including the graph representation (`adj`) is $O(V + E)$.
+- **Multi-Source BFS (Simultaneous Parallel Spread)**: When a process spreads concurrently from multiple locations (e.g. all rotten oranges rotting neighbors starting at minute 0), push ALL initial source cells into the queue at $t=0$ before starting the traversal loop. A single FIFO queue naturally models time step progression across all sources in parallel.
+- **Queue State Tuple `[r, c, t]`**: Storing elapsed time directly in the queue tuple (`[ci, cj, t]`) eliminates the need for complex layer-delimiter passes; tracking `mt = max(mt, t)` directly captures total minutes required.
+- **Post-BFS Validation Scan**: A final $O(m \cdot n)$ pass across the grid cleanly verifies whether any target cells remained unreachable (`grid[i][j] == 1 and visited[i][j] != 2`), returning `-1`.
 
 ## Implementation Mistakes
 
@@ -30,3 +33,5 @@
 - **Grid Boundary Checks**: Be vigilant with matrix boundaries: allow 0 (`cr >= 0 and cc >= 0` rather than `> 0`), and keep row count (`len(image)`) and column count (`len(image[0])`) distinct.
 - **Search Condition Direction**: Watch out for flipped logic/negation bugs (e.g. writing `image[cr][cc] != ocolor` when we want to expand into cells *matching* `ocolor`).
 - **Initial Grid Visited State**: In grid BFS, mark the starting cell `(sr, sc)` as visited immediately when creating the queue to prevent cycles/re-enqueueing.
+- **Multi-Source BFS Recognition**: Needed conceptual hints to identify multi-source BFS instead of single-source BFS or multiple independent runs. Once the initial queue setup was clear, implementation was completed independently.
+

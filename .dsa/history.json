@@ -499,6 +499,24 @@
                     "grade": "A"
                 }
             ]
+        },
+        "graph-rotting-oranges": {
+            "name": "Rotting Oranges",
+            "topic": "Graphs",
+            "pattern": "Multi-Source Breadth-First Search",
+            "difficulty": "Medium",
+            "first_attempt": "C",
+            "current": "C",
+            "attempts": 1,
+            "first_seen": "2026-09-09",
+            "last_attempt": "2026-09-09",
+            "next_revision": "2026-09-11",
+            "revision_history": [
+                {
+                    "date": "2026-09-09",
+                    "grade": "C"
+                }
+            ]
         }
     },
     "sessions": [
@@ -575,10 +593,20 @@
                 "graph-connected-components",
                 "graph-flood-fill"
             ]
+        },
+        {
+            "date": "2026-09-09",
+            "day": 7,
+            "topic": "Graphs",
+            "new_problems": 1,
+            "revision_problems": 0,
+            "problems": [
+                "graph-rotting-oranges"
+            ]
         }
     ],
     "stats": {
-        "total_attempted": 29,
+        "total_attempted": 30,
         "independent_solves": 22
     }
 }

@@ -142,3 +142,24 @@
 
 - Connected Components in an Undirected Graph
 
+## Multi-Source Breadth-First Search (BFS)
+
+### Recognition Signals
+
+- Multiple starting sources expand, spread, or infect outward simultaneously at time $t = 0$.
+- Finding minimum time or steps for a spread effect to cover all reachable cells in a grid.
+- Keywords/themes: rotting oranges spreading, fire spreading, water flooding from multiple sources.
+
+### Mental Model
+
+- **Simultaneous Initialization**: Scan the grid and enqueue **all** starting sources at $t = 0$ upfront before starting the BFS loop.
+- **Queue Tuple `[row, col, time]`**: Store the timestamp directly in each queue node to naturally track elapsed time without separate layer delimiters.
+- **Mark Visited Upon Enqueue**: Mark cells visited (e.g. `visited[cr][cc] = 2`) immediately when enqueuing with `t + 1` to prevent duplicate neighbor additions.
+- **Post-Traversal Completeness Check**: After the queue empties, do a full pass over the grid to verify whether any target cells remain unaffected (`grid[i][j] == 1 and visited[i][j] != 2`), returning `-1` if unreachable.
+- Python efficiency note: Use `collections.deque.popleft()` instead of `list.pop(0)` for $O(1)$ queue operations.
+
+### Representative Problems
+
+- Rotting Oranges
+
+
